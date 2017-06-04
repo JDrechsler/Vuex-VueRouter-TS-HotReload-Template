@@ -1,0 +1,13 @@
+<div>
+	<input v-model="msg">
+	<p>msg: {{msg}}</p>
+	<button @click="greet">Greet</button>
+	<p>Store: {{state.count}}</p>
+	<pre>
+		{{state}}
+	</pre>
+
+	<input v-model="state.count">
+
+	<Second></Second>
+</div>
