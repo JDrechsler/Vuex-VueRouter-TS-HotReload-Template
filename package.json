@@ -1,33 +1,29 @@
 {
-  "name": "typescript-vuex-starter",
-  "version": "1.0.0",
-  "private": true,
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack-dev-server --entry ./src/index.ts --hot",
-    "build": "webpack -p"
-  },
-  "keywords": [],
-  "author": {
-    "name": "JDrechsler"
-  },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "vue": "2.3.3"
-  },
-  "devDependencies": {
-    "@types/node": "^7.0.24",
-    "css-loader": "^0.28.1",
-    "html-loader": "^0.4.5",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.3.2",
-    "vue-class-component": "^5.0.1",
-    "vue-loader": "^12.0.3",
-    "vue-router": "^2.5.3",
-    "vue-template-compiler": "2.3.3",
-    "vuex": "^2.3.1",
-    "webpack": "^2.5.0",
-    "webpack-dev-server": "^2.4.5"
-  }
+	"name": "developer-zen",
+	"version": "1.0.0",
+	"description": "zen for developers",
+	"main": "index.js",
+	"author": "JDrechsler",
+	"license": "MIT",
+	"scripts": {
+		"dev": "webpack-dev-server --entry ./src/index.ts --hot",
+		"build": "webpack -p"
+	},
+	"dependencies": {
+		"vue": "2.3.3",
+		"vue-class-component": "5.0.1",
+		"vue-router": "2.5.3",
+		"vuex": "2.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "7.0.27",
+		"css-loader": "0.28.4",
+		"html-loader": "0.4.5",
+		"ts-loader": "2.1.0",
+		"typescript": "2.3.4",
+		"vue-loader": "12.2.1",
+		"vue-template-compiler": "2.3.3",
+		"webpack": "2.6.1",
+		"webpack-dev-server": "2.4.5"
+	}
 }
