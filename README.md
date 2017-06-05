@@ -11,15 +11,15 @@
 
 Install the dependencies and devDependencies:
 ```sh
-npm install
+npm/yarn install
 ```
 Start the server with Hot Reloading:
 ```sh
-npm run dev
+npm/yarn run dev
 ```
 Build and prepare for production:
 ```sh
-npm run build
+npm/yarn run build
 ```
 
  License
